@@ -8,12 +8,12 @@ def fizzbuzz(int)
   a = div_three.is_a?(Integer)
   b = div_five.is_a?(Integer)
   if a&&b
-    puts "FizzBuzz"
+    returns "FizzBuzz"
   elseif a && !b
-    puts "Buzz"
+    returns "Buzz"
   elseif b && !a
-    puts "Fizz"
+    returns "Fizz"
   else
-    puts "nil"
+    returns "nil"
   end
 end
