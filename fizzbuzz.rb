@@ -7,11 +7,12 @@ def fizzbuzz(int)
   if a&&b
     return "FizzBuzz"
   else
-    elseif a && !b
+    if a && !b
       return "Fizz"
     elseif b && !a
       return "Buzz"
     elseif !a && !b
       return nil
+    end
   end
 end
