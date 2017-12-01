@@ -6,11 +6,12 @@ def fizzbuzz(int)
   b = int % 5 == 0
   if a&&b
     return "FizzBuzz"
-  elseif a && !b
-    return "Fizz"
-  elseif b && !a
-    return "Buzz"
-  elseif !a && !b
-    return nil
+  else
+    elseif a && !b
+      return "Fizz"
+    elseif b && !a
+      return "Buzz"
+    elseif !a && !b
+      return nil
   end
 end
