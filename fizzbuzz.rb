@@ -14,6 +14,6 @@ def fizzbuzz(int)
   elseif b && !a
     return "Fizz"
   else
-    return "nil"
+    return nil
   end
 end
