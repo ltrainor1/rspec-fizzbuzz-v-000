@@ -9,10 +9,12 @@ def fizzbuzz(int)
   else
     if a && !b
       return "Fizz"
-    elseif b && !a
-      return "Buzz"
-    elseif !a && !b
-      return nil
+    else
+      if b && !a
+        return "Buzz"
+      elseif !a && !b
+        return nil
+      end
     end
   end
 end
