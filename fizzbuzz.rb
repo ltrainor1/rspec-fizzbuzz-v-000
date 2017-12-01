@@ -5,8 +5,8 @@ def fizzbuzz(int)
   div_three = int/3
   div_five = int/5
   
-  a = div_three.is_a?(Integer)
-  b = div_five.is_a?(Integer)
+  a = int % 3 == 0
+  b = int % 5 == 0
   if a&&b
     return "FizzBuzz"
   elseif a && !b
